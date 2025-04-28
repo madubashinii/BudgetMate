@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        />
+    <item
+        android:id="@+id/nav_add"
+        android:title="Add"
+        android:icon="@drawable/add"
+        />
+    <item
+        android:id="@+id/nav_budget"
+        android:title="Budget"
+        android:icon="@drawable/account_balance_wallet"
+        />
+    <item
+        android:id="@+id/nav_summary"
+        android:title="Summary"
+        android:icon="@drawable/finance"
+        />
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Settings"
+        android:icon="@drawable/settings"
+        />
+</menu>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="287dp"
+        android:text="@string/sign_up"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="350dp"
+        android:layout_height="339dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="83dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etRegisterName"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:hint="@string/reg_name" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="83dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etRegisterEmail"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:hint="@string/reg_email"
+                android:inputType="textEmailAddress"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="83dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etRegisterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:hint="@string/reg_password"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="83dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etRegisterCPassword"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:hint="@string/reg_confirm_password"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#3F51B5"
+        android:text="@string/reg_sign_up"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

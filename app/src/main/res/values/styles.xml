@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">24sp</item> <!-- Change this to your preferred size -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
